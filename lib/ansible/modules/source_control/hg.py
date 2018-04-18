@@ -82,7 +82,7 @@ EXAMPLES = '''
 
 - name: Get information about the repository whether or not it has already been cloned locally.
   hg:
-    repo: git://bitbucket.org/user/repo
+    repo:  ssh://hg@bitbucket.org/user/repo
     dest: /srv/checkout
     clone: no
     update: no
